@@ -1,0 +1,67 @@
+/* ---- reset ---- */
+
+body {
+  margin: 0;
+  font:normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+
+#particles-js {
+  height:260%;
+  background-color: #09203e;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  overflow: auto;
+  position: relative;
+  
+}
+
+
+/*------------------ mainHome ----------------*/
+
+#mainHome {
+  width: 600px;
+  position: absolute;
+  display: table;
+  left:28%;
+  top:20%;
+  /*overflow: hidden;*/
+}
+
+#mainHome .mainHome1{
+  text-align: center;
+}
+#mainHome .mainHome2{
+  background-color:rgba(3, 21, 50, 0.7);
+  padding:60px 0 60px 0;
+  text-align: center;
+}
+
+#mainHome .mainHome1 .head{
+  padding: 35px 0 35px 0;
+  color:white;
+}
+
+#mainHome .mainHome3 h6{
+  color:white;
+  padding: 20px 0 20px 0;
+}
+#mainHome .mainHome3{
+  background-color:rgba(4, 29, 70, 0.7);
+}
+
+#mainHome .mainHome4{
+  height:300px;
+}
+
+#mainHome .mainHome4 .img{
+  width:100%;
+}

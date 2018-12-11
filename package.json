@@ -1,0 +1,20 @@
+{
+  "name": "scattert",
+  "version": "1.0.0",
+  "description": "Key Generator for EOS",
+  "main": "js/index.js",
+  "scripts": {
+    "start": "browserify js/index.js > js/bundle.js && http-server -p 8888"
+  },
+  "author": "Yash Bhavsar",
+  "license": "ISC",
+  "dependencies": {
+    "browserify": "^13.1.1",
+    "eos-scatter": "^1.0.0",
+    "eosjs": "^16.0.9",
+    "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
+  }
+}
